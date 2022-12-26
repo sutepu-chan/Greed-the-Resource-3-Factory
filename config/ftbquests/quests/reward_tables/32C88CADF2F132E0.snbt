@@ -1,0 +1,81 @@
+{
+	id: "32C88CADF2F132E0"
+	order_index: 3
+	title: "IngotNOre"
+	icon: "minecraft:iron_ingot"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_ingot", count: 2 }
+		{ item: "minecraft:gold_ingot", count: 2 }
+		{ item: "minecraft:netherite_ingot", count: 2 }
+		{ item: "minecraft:brick", count: 2 }
+		{ item: "minecraft:nether_brick", count: 2 }
+		{ item: "alltheores:copper_ingot", count: 2 }
+		{ item: "alltheores:lead_ingot", count: 2 }
+		{ item: "alltheores:nickel_ingot", count: 2 }
+		{ item: "alltheores:aluminum_ingot", count: 2 }
+		{ item: "alltheores:osmium_ingot", count: 2 }
+		{ item: "alltheores:platinum_ingot", count: 2 }
+		{ item: "alltheores:silver_ingot", count: 2 }
+		{ item: "alltheores:tin_ingot", count: 2 }
+		{ item: "alltheores:uranium_ingot", count: 2 }
+		{ item: "alltheores:zinc_ingot", count: 2 }
+		{ item: "biggerreactors:ludicrite_ingot", count: 2 }
+		{ item: "biggerreactors:graphite_ingot", count: 2 }
+		{ item: "biggerreactors:cyanite_ingot", count: 2 }
+		{ item: "biggerreactors:blutonium_ingot", count: 2 }
+		{ item: "bloodmagic:ingot_hellforged", count: 2 }
+		{ item: "botania:manasteel_ingot", count: 2 }
+		{ item: "botania:terrasteel_ingot", count: 2 }
+		{ item: "botania:elementium_ingot", count: 2 }
+		{ item: "create:brass_ingot", count: 2 }
+		{ item: "draconicevolution:draconium_ingot", count: 2 }
+		{ item: "mekanism:ingot_refined_obsidian", count: 2 }
+		{ item: "mekanism:ingot_refined_glowstone", count: 2 }
+		{ item: "mekanism:ingot_steel", count: 2 }
+		{ item: "pneumaticcraft:ingot_iron_compressed", count: 2 }
+		{ item: "thermal:bronze_ingot", count: 2 }
+		{ item: "thermal:electrum_ingot", count: 2 }
+		{ item: "thermal:invar_ingot", count: 2 }
+		{ item: "thermal:constantan_ingot", count: 2 }
+		{ item: "thermal:signalum_ingot", count: 2 }
+		{ item: "thermal:lumium_ingot", count: 2 }
+		{ item: "thermal:enderium_ingot", count: 2 }
+		{ item: "betterendforge:aeternium_ingot", count: 2 }
+		{ item: "betterendforge:thallasium_ingot", count: 2 }
+		{ item: "betterendforge:terminite_ingot", count: 2 }
+		{ item: "projectred-core:red_ingot", count: 2 }
+		{ item: "projectred-core:electrotine_ingot", count: 2 }
+		{ item: "minecraft:diamond", count: 2 }
+		{ item: "minecraft:lapis_lazuli", count: 2 }
+		{ item: "minecraft:emerald", count: 2 }
+		{ item: "minecraft:quartz", count: 2 }
+		{ item: "minecraft:prismarine_crystals", count: 2 }
+		{ item: "astralsorcery:aquamarine", count: 2 }
+		{ item: "botania:mana_diamond", count: 2 }
+		{ item: "botania:dragonstone", count: 2 }
+		{ item: "mekanism:fluorite_gem", count: 2 }
+		{ item: "rftoolsbase:dimensionalshard", count: 2 }
+		{ item: "thermal:apatite", count: 2 }
+		{ item: "thermal:cinnabar", count: 2 }
+		{ item: "thermal:niter", count: 2 }
+		{ item: "thermal:sulfur", count: 2 }
+		{ item: "projectred-core:ruby", count: 2 }
+		{ item: "projectred-core:sapphire", count: 2 }
+		{ item: "projectred-core:peridot", count: 2 }
+		{ item: "extendedcrafting:black_iron_ingot", count: 2 }
+		{ item: "extendedcrafting:redstone_ingot", count: 2 }
+		{ item: "extendedcrafting:ender_ingot", count: 2 }
+		{ item: "extendedcrafting:enhanced_ender_ingot", count: 2 }
+		{ item: "extendedcrafting:crystaltine_ingot", count: 2 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "ingotnore"
+	}
+}

@@ -1,0 +1,30 @@
+{
+    "key": "lumium",
+    "category": "metal",
+    "primary": "7.0",
+    "secondary": "6.4",
+    "tertiary": "2.2",
+    "durability": "2439",
+    "integrityCost": "1",
+    "integrityGain": "6",
+    "magicCapacity": "92",
+    "toolLevel": "4",
+    "toolEfficiency": "9.8",
+    "tints": {
+        "glyph": "f7f139",
+        "texture": "edeba8"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "tag": "forge:ingots/lumium"
+    },
+    "improvements": {
+        "workable": 2
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

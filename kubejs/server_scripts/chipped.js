@@ -1,0 +1,10 @@
+onEvent('recipes', e => {
+    e.recipes.bloodmagic.altar('chipped:botanist_workbench', 'minecraft:flower_pot').upgradeLevel(1).altarSyphon(1000)
+    e.recipes.bloodmagic.altar('chipped:glassblower', '#forge:glass').upgradeLevel(1).altarSyphon(1000)
+    e.recipes.bloodmagic.altar('chipped:carpenters_table', 'minecraft:wooden_axe').upgradeLevel(1).altarSyphon(1000)
+    e.recipes.bloodmagic.altar('chipped:loom_table', '#forge:wool').upgradeLevel(1).altarSyphon(1000)
+    e.recipes.bloodmagic.altar('chipped:mason_table', '#chisel:bricks').upgradeLevel(1).altarSyphon(1000)
+    e.recipes.bloodmagic.altar('chipped:mechanist_workbench', 'minecraft:redstone_torch').upgradeLevel(1).altarSyphon(1000)
+    e.recipes.bloodmagic.altar('chipped:alchemy_bench', 'minecraft:brewing_stand').upgradeLevel(1).altarSyphon(1000)
+    removeRecipeByOutput(e, ['chipped:botanist_workbench', 'chipped:glassblower', 'chipped:carpenters_table', 'chipped:loom_table', 'chipped:mason_table', 'chipped:alchemy_bench', 'chipped:mechanist_workbench'])
+})

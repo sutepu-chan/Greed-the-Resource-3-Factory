@@ -1,0 +1,396 @@
+{
+	id: "7861181468468DED"
+	order_index: 0
+	title: "Singularity"
+	icon: "extendedcrafting:ultimate_singularity"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:aluminum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:brass"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:bronze"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:coal"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:cobblestone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:compressed_iron"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:constantan"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:copper"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:diamond"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:dirt"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:draconium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:electrum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:elementium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:emerald"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:enderium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:glowstone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:graphite"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:gravel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:invar"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:iron"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:lapis_lazuli"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:lead"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:lumium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:manasteel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:netherstar"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:netherite"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:nickel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:platinum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:redstone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:refined_glowstone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:refined_obsidian"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:sand"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:signalum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:silver"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:steel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:stone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:terrasteel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:tin"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:uranium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:wood"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:mushroom"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:forge_energy"
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "singularity"
+	}
+}

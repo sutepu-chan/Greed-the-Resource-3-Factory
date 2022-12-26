@@ -1,0 +1,30 @@
+{
+    "key": "signalum",
+    "category": "metal",
+    "primary": "9.8",
+    "secondary": "2.8",
+    "tertiary": "4.1",
+    "durability": "3446",
+    "integrityCost": "2",
+    "integrityGain": "8",
+    "magicCapacity": "104",
+    "toolLevel": "4",
+    "toolEfficiency": "10.0",
+    "tints": {
+        "glyph": "ff7152",
+        "texture": "ff8000"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "tag": "forge:ingots/signalum"
+    },
+    "improvements": {
+        "workable": 2
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

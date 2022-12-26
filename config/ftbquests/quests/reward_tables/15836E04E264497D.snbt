@@ -1,0 +1,33 @@
+{
+	id: "15836E04E264497D"
+	order_index: 6
+	title: "MobLoot"
+	icon: "minecraft:rotten_flesh"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:blaze_rod", count: 4 }
+		{ item: "minecraft:bone", count: 8 }
+		{ item: "minecraft:string", count: 8 }
+		{ item: "minecraft:gunpowder", count: 8 }
+		{ item: "minecraft:spider_eye", count: 8 }
+		{ item: "minecraft:rotten_flesh", count: 8 }
+		{ item: "minecraft:ender_pearl", count: 4 }
+		{ item: "minecraft:ender_eye", count: 2 }
+		{ item: "minecraft:prismarine_crystals", count: 4 }
+		{ item: "minecraft:prismarine_shard", count: 9 }
+		{ item: "minecraft:ink_sac", count: 8 }
+		{ item: "minecraft:ghast_tear", count: 4 }
+		{ item: "thermal:blizz_rod", count: 8 }
+		{ item: "thermal:blitz_rod", count: 8 }
+		{ item: "thermal:basalz_rod", count: 8 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "mobloot"
+	}
+}

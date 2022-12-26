@@ -1,0 +1,38 @@
+{
+  "type": "quarryplus:workbench_recipe",
+  "id": "quarryplus:builtin_pump_plus",
+  "ingredients": [
+    {
+      "tag": "forge:glass/colorless",
+      "count": 256
+    },
+    {
+      "item": "bloodmagic:reagentlava",
+      "count": 64
+    },
+    {
+      "item": "bloodmagic:reagentwater",
+      "count": 64
+    },
+    {
+      "item": "mob_grinding_utils:tank",
+      "count": 16
+    },
+    {
+      "item": "minecraft:bucket",
+      "count": 120
+    }
+  ],
+  "energy": 320000.0,
+  "showInJEI": true,
+  "result": {
+    "item": "quarryplus:pumpplus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "value": "PumpPlus",
+      "type": "quarryplus:machine_enabled"
+    }
+  ]
+}

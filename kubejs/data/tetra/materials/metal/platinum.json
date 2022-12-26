@@ -1,0 +1,27 @@
+{
+    "key": "platinum",
+    "category": "metal",
+    "primary": "5.9",
+    "secondary": "2.8",
+    "tertiary": "4.2",
+    "durability": "1280",
+    "integrityCost": "1",
+    "integrityGain": "6",
+    "magicCapacity": "118",
+    "toolLevel": "3",
+    "toolEfficiency": "7.8",
+    "tints": {
+        "glyph": "28edea",
+        "texture": "7df0ee"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "tag": "forge:ingots/platinum"
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

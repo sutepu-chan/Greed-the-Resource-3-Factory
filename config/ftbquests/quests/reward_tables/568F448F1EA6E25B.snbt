@@ -1,0 +1,30 @@
+{
+	id: "568F448F1EA6E25B"
+	order_index: 2
+	title: "BossLoot"
+	icon: "minecraft:nether_star"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:nether_star" }
+		{ item: "minecraft:dragon_egg" }
+		{ item: "minecraft:dragon_breath", count: 8 }
+		{ item: "minecraft:dragon_head" }
+		{ item: "draconicevolution:dragon_heart" }
+		{ item: "minecraft:experience_bottle", count: 16 }
+		{ item: "touhou_little_maid:power_point", count: 16 }
+		{ item: "mysticalagriculture:inferium_essence", count: 32 }
+		{ item: "mysticalagriculture:prudentium_essence", count: 8 }
+		{ item: "mysticalagriculture:tertium_essence", count: 2 }
+		{ item: "mysticalagradditions:dragon_scale", count: 8 }
+		{ item: "mysticalagriculture:supremium_essence" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "bossloot"
+	}
+}

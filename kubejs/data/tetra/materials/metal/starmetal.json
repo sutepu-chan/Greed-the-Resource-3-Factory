@@ -1,0 +1,31 @@
+{
+    "conditions": [{
+        "type": "forge:mod_loaded",
+        "modid": "astralsorcery"
+    }],
+    "key": "starmetal",
+    "category": "metal",
+    "primary": "11.4",
+    "secondary": "3.5",
+    "tertiary": "5.4",
+    "durability": "3784",
+    "integrityCost": "1",
+    "integrityGain": "6",
+    "magicCapacity": "160",
+    "toolLevel": "4",
+    "toolEfficiency": "9.2",
+    "tints": {
+        "glyph": "00a2fa",
+        "texture": "00a2fa"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "astralsorcery:starmetal_ingot"
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

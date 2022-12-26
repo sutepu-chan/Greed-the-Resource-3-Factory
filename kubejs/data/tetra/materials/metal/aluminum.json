@@ -1,0 +1,27 @@
+{
+    "key": "aluminum",
+    "category": "metal",
+    "primary": "5.2",
+    "secondary": "1.2",
+    "tertiary": "3.6",
+    "durability": "460",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "96",
+    "toolLevel": "3",
+    "toolEfficiency": "6.2",
+    "tints": {
+        "glyph": "dededc",
+        "texture": "f5f5f2"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "tag": "forge:ingots/aluminum"
+    },
+    "requiredTools": {
+        "hammer": 2
+    }
+}

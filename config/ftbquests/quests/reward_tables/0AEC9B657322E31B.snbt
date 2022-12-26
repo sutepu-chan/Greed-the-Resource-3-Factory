@@ -1,0 +1,507 @@
+{
+	id: "0AEC9B657322E31B"
+	order_index: 4
+	title: "QuarkTome"
+	icon: {
+		id: "quark:ancient_tome"
+		Count: 1b
+		tag: {
+			StoredEnchantments: [{
+				lvl: 4s
+				id: "minecraft:protection"
+			}]
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:fire_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:feather_falling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:blast_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:projectile_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:respiration"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:thorns"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:depth_strider"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:frost_walker"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:soul_speed"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:smite"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:bane_of_arthropods"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:knockback"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:fire_aspect"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:looting"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:sweeping"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:punch"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:luck_of_the_sea"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:lure"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:loyalty"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:impaling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:riptide"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:quick_charge"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:piercing"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "tombstone:shadow_step"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:power"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "tombstone:magic_siphon"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "tombstone:plague_bringer"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "tombstone:curse_of_bones"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "sneakymagic:plundering"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "mythicbotany:hammer_mobility"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "cofh_core:holding"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "farmersdelight:backstabbing"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "create:potato_recovery"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "create:capacity"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "draconicevolution:reaper_enchantment"
+					}]
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "quarktome"
+	}
+}

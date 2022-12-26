@@ -1,0 +1,27 @@
+{
+    "key": "spirited_crystal",
+    "category": "gem",
+    "primary": "9.2",
+    "secondary": "2.2",
+    "tertiary": "4.0",
+    "durability": "2475",
+    "integrityCost": "2",
+    "integrityGain": "8",
+    "magicCapacity": "130",
+    "toolLevel": "6",
+    "toolEfficiency": "10.5",
+    "tints": {
+        "glyph": "04cf63",
+        "texture": "1ef783"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "powah:crystal_spirited"
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

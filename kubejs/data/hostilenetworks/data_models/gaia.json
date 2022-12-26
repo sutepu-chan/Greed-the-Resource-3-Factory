@@ -1,0 +1,35 @@
+{
+  "type": "botania:doppleganger",
+  "name": "entity.botania.doppleganger",
+  "name_color": "0x303f31",
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 6200,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:end_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.doppleganger",
+  "fabricator_drops": [
+    {
+      "item": "botania:life_essence",
+      "count": 3
+    },
+    {
+      "item": "botania:elementium_ingot",
+      "count": 16
+    },
+    {
+      "item": "botania:pixie_dust",
+      "count": 16
+    },
+    {
+      "item": "botania:dragonstone",
+      "count": 16
+    }
+  ]
+}

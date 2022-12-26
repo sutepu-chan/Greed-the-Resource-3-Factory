@@ -1,0 +1,41 @@
+{
+	id: "2F2F68609594592A"
+	group: ""
+	order_index: 2
+	filename: "messages_to_developer_or_website_holder"
+	title: "Notes"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -1.0d
+			description: [
+				"If you want to translate this modpack, please let me know by DM me at CurseForge."
+				"I know that there are already chinese translation of this modpack."
+				"感謝漢化組的朋友幫忙漢化"
+				"感谢汉化组的朋友帮忙汉化"
+			]
+			optional: true
+			id: "059955E745070EB6"
+			tasks: [{
+				id: "180F045EFB442849"
+				type: "checkmark"
+				title: "Message to translator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["Third-party redistribution is prohibited for this modpack. Whole pack translation is an exceptional case."]
+			optional: true
+			id: "2021CC4DEB7D0DCE"
+			tasks: [{
+				id: "37AF07BF087CF4FE"
+				type: "checkmark"
+				title: "No third party!"
+			}]
+		}
+	]
+}

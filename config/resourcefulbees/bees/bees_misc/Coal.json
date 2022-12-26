@@ -1,0 +1,63 @@
+{
+  "flower": "tag:forge:storage_blocks/coal",
+  "maxTimeInHive": 2400,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/coal/coal_bee",
+  "ColorData": {
+    "honeycombColor": "#303030",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 1,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "tag:forge:ores/coal",
+        "outputs": [
+          {
+            "outputID": "minecraft:coal",
+            "weight": 80
+          },
+          {
+            "outputID": "resourcefulbees:bee_jar",
+            "nbtData": {
+              "Entity": "resourcefulbees:coal_bee",
+              "BeeType": "coal",
+              "Color": "#303030"
+            },
+            "weight": 20
+          }
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 1,
+    "mainOutput": "minecraft:coal",
+    "mainOutputWeight": 0.75,
+    "mainOutputCount": 4,
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1,
+    "recipeTime": 200
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Blazing",
+    "parent2": "Lumber",
+    "breedWeight": 10,
+    "breedChance": 0.60,
+    "feedItem": "tag:forge:storage_blocks/coal",
+    "feedAmount": 1,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

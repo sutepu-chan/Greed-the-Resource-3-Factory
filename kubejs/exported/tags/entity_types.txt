@@ -1,0 +1,278 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 26, 2022 12:58:53 PM
+
+#endergetic:not_balloon_attachable
+- upgrade_aquatic:flare
+- endergetic:boof_block
+- endergetic:poise_cluster
+- endergetic:puff_bug
+- endergetic:booflo
+- endergetic:booflo_adolescent
+- endergetic:booflo_baby
+- minecraft:shulker
+- minecraft:horse
+- minecraft:armor_stand
+- minecraft:phantom
+- minecraft:ghast
+- minecraft:wither
+- minecraft:ender_dragon
+
+#neapolitan:milkable
+- environmental:yak
+- minecraft:cow
+- minecraft:mooshroom
+
+#buzzier_bees:moobloom_hostiles
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:stray
+- minecraft:drowned
+
+#neapolitan:unaffected_by_slipping
+- neapolitan:plantain_spider
+- neapolitan:chimpanzee
+
+#carryon:stacking_whitelist
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+
+#carryon:stacking_blacklist
+
+#forge:endermen
+- minecraft:enderman
+- mekanismadditions:baby_enderman
+
+#neapolitan:scares_chimpanzees
+- minecraft:firework_rocket
+- minecraft:lightning_bolt
+- minecraft:small_fireball
+- minecraft:fireball
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- minecraft:evoker_fangs
+- minecraft:tnt
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+
+#mob_grinding_utils:no_spawn
+
+#friendlyfire:general_protection
+
+#neapolitan:unaffected_by_harmony
+
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
+
+#seeker_compass:summonables
+- endergetic:booflo
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#neapolitan:chimpanzee_dart_targets
+- endergetic:bolloom_fruit?
+- endergetic:bolloom_balloon?
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- cataclysm:nameless_sorcerer
+
+#pneumaticcraft:vacuum_trap_blacklisted
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#carryon:entity_whitelist
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#endergetic:boof_block_resistant
+- endergetic:boof_block
+- endergetic:poise_cluster
+- endergetic:bolloom_fruit
+- endergetic:bolloom_balloon
+- minecraft:shulker
+- minecraft:painting
+- minecraft:vex
+- minecraft:item_frame
+- quark:glass_frame?
+- quark:colored_frame?
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanism:robit
+- mekanismadditions:baby_creeper
+- mekanismadditions:baby_enderman
+- mekanismadditions:baby_skeleton
+- mekanismadditions:baby_stray
+- mekanismadditions:baby_wither_skeleton
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- mekanism:flame
+- environmental:mud_ball
+- environmental:duck_egg
+- atmospheric:passionfruit_seed
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+- resourcefulbees:lead_bee
+- resourcefulbees:kitten_bee
+- resourcefulbees:yeti_bee
+- resourcefulbees:diamond_bee
+- resourcefulbees:slimy_bee
+- resourcefulbees:spooky_bee
+- resourcefulbees:draconium_bee
+- resourcefulbees:tin_bee
+- resourcefulbees:water_bee
+- resourcefulbees:beeper_bee
+- resourcefulbees:redstone_bee
+- resourcefulbees:starry_bee
+- resourcefulbees:rgbee_bee
+- resourcefulbees:glowing_bee
+- resourcefulbees:lava_bee
+- resourcefulbees:chaotic_bee
+- resourcefulbees:blazing_bee
+- resourcefulbees:osmium_bee
+- resourcefulbees:soul_lava_bee
+- resourcefulbees:iron_bee
+- resourcefulbees:ender_bee
+- resourcefulbees:allthemodium_bee
+- resourcefulbees:cobbee_bee
+- resourcefulbees:wither_bee
+- resourcefulbees:papa_beemeritus_bee
+- resourcefulbees:withered_bee
+- resourcefulbees:lumber_bee
+- resourcefulbees:lapis_bee
+- resourcefulbees:aquamarine_bee
+- resourcefulbees:ghastly_bee
+- resourcefulbees:abbee_bee
+- resourcefulbees:gravely_bee
+- resourcefulbees:dirty_bee
+- resourcefulbees:copper_bee
+- resourcefulbees:nickel_bee
+- resourcefulbees:aluminum_bee
+- resourcefulbees:oreo_bee
+- resourcefulbees:fluorite_bee
+- resourcefulbees:emerald_bee
+- resourcefulbees:uraninite_bee
+- resourcefulbees:uranium_bee
+- resourcefulbees:coal_bee
+- resourcefulbees:silver_bee
+- resourcefulbees:stan_bee
+- resourcefulbees:obsidian_bee
+- resourcefulbees:unobtainium_bee
+- resourcefulbees:awakened_bee
+- resourcefulbees:salt_baee_bee
+- resourcefulbees:zinc_bee
+- resourcefulbees:stoned_bee
+- resourcefulbees:platinum_bee
+- resourcefulbees:guardian_bee
+- resourcefulbees:netherite_bee
+- resourcefulbees:magma_bee
+- resourcefulbees:mason_bee
+- resourcefulbees:vibranium_bee
+- resourcefulbees:gold_bee
+- resourcefulbees:quartz_bee
+- resourcefulbees:spider_bee
+- resourcefulbees:sandy_bee
+- resourcefulbees:dragonic_bee
+- resourcefulbees:icey_bee
+
+#environmental:unaffected_by_serenity
+
+#forge:creepers
+- minecraft:creeper
+- mekanismadditions:baby_creeper
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- mekanismadditions:baby_skeleton
+- mekanismadditions:baby_stray
+- mekanismadditions:baby_wither_skeleton
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- neapolitan:bananarrow
+
+#carryon:entity_blacklist
+
+#pneumaticcraft:omnihopper_blacklisted
+- minecraft:villager
+
+#cataclysm:trap_block_not_detected
+- cataclysm:ender_golem
+- cataclysm:ender_guardian
+- minecraft:ender_dragon
+- minecraft:enderman
+- minecraft:endermite
+- cataclysm:endermaptera
+
+#mob_grinding_utils:noswab
+- minecraft:wither
+- minecraft:ender_dragon
+
+#cataclysm:ignis_cant_poke
+- minecraft:slime
+- minecraft:magma_cube
+- minecraft:ender_dragon
+- minecraft:wither

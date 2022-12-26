@@ -1,0 +1,35 @@
+{
+    "input": [
+      {
+        "item": "upgradednetherite_ultimate:ultimate_upgraded_netherite_pickaxe"
+      },
+      {
+        "item": "mysticalagradditions:insanium_ingot"
+      },
+      {
+        "item": "minecraft:diamond_block"
+      },
+      {
+        "item": "minecraft:diamond_block"
+      },
+      {
+        "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+      },
+      {
+        "tag": "forge:gears/gold"
+      },
+      {
+        "tag": "forge:gears/gold"
+      },
+      {
+        "tag": "forge:gears/gold"
+      }
+    ],
+    "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:2000}",
+    "processingTime": 1000,
+    "output": {
+      "item": "industrialforegoing:infinity_drill",
+      "count": 1
+    },
+    "type": "industrialforegoing:dissolution_chamber"
+  }

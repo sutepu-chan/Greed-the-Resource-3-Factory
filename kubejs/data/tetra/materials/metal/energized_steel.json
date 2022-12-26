@@ -1,0 +1,27 @@
+{
+    "key": "energize_steel",
+    "category": "metal",
+    "primary": "5.5",
+    "secondary": "3.2",
+    "tertiary": "3.2",
+    "durability": "831",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "88",
+    "toolLevel": "2",
+    "toolEfficiency": "6.8",
+    "tints": {
+        "glyph": "c7a036",
+        "texture": "edbf40"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "powah:steel_energized"
+    },
+    "requiredTools": {
+        "hammer": 2
+    }
+}

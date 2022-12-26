@@ -1,0 +1,85 @@
+{
+  "flower": "tag:forge:storage_blocks/gold",
+  "maxTimeInHive": 2400,
+  "traits": [
+    "nether"
+  ],
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/gold/gold_bee",
+  "ColorData": {
+    "honeycombColor": "#FFDC00",
+    "modelType": "DEFAULT"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 1,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "tag:forge:ores/gold",
+        "outputs": [
+          {
+            "outputID": "minecraft:gold_ingot",
+            "weight": 80
+          },
+          {
+            "outputID": "resourcefulbees:bee_jar",
+            "nbtData": {
+              "Entity": "resourcefulbees:gold_bee",
+              "BeeType": "gold",
+              "Color": "#FFDC00"
+            },
+            "weight": 20
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:ancient_debris",
+        "outputs": [
+          {
+            "outputID": "minecraft:netherite_scrap",
+            "weight": 80
+          },
+          {
+            "outputID": "resourcefulbees:bee_jar",
+            "nbtData": {
+              "Entity": "resourcefulbees:netherite_bee",
+              "BeeType": "netherite",
+              "Color": "#654740"
+            },
+            "weight": 20
+          }
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 1,
+    "mainOutput": "minecraft:gold_ingot",
+    "mainOutputWeight": 0.70,
+    "mainOutputCount": 3,
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1,
+    "recipeTime": 200
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Quartz",
+    "parent2": "Stoned",
+    "breedWeight": 10,
+    "breedChance": 0.60,
+    "feedItem": "tag:forge:storage_blocks/gold",
+    "feedAmount": 1,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

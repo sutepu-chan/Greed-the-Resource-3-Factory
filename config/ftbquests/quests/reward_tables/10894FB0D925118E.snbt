@@ -1,0 +1,64 @@
+{
+	id: "10894FB0D925118E"
+	order_index: 7
+	title: "Botania"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{ item: "botania:white_mystical_flower", count: 4 }
+		{ item: "botania:orange_mystical_flower", count: 4 }
+		{ item: "botania:magenta_mystical_flower", count: 4 }
+		{ item: "botania:light_blue_mystical_flower", count: 4 }
+		{ item: "botania:yellow_mystical_flower", count: 4 }
+		{ item: "botania:lime_mystical_flower", count: 4 }
+		{ item: "botania:pink_mystical_flower", count: 4 }
+		{ item: "botania:gray_mystical_flower", count: 4 }
+		{ item: "botania:light_gray_mystical_flower", count: 4 }
+		{ item: "botania:cyan_mystical_flower", count: 4 }
+		{ item: "botania:purple_mystical_flower", count: 4 }
+		{ item: "botania:blue_mystical_flower", count: 4 }
+		{ item: "botania:brown_mystical_flower", count: 4 }
+		{ item: "botania:green_mystical_flower", count: 4 }
+		{ item: "botania:red_mystical_flower", count: 4 }
+		{ item: "botania:black_mystical_flower", count: 4 }
+		{ item: "botania:manasteel_ingot", count: 4 }
+		{ item: "botania:mana_pearl", count: 2 }
+		{ item: "botania:mana_diamond", count: 2 }
+		{ item: "botania:livingwood_twig", count: 4 }
+		{ item: "botania:redstone_root", count: 2 }
+		{ item: "botania:elementium_ingot" }
+		{ item: "botania:pixie_dust" }
+		{ item: "botania:dragonstone" }
+		{ item: "botania:red_string", count: 2 }
+		{ item: "botania:manaweave_cloth", count: 2 }
+		{ item: "botania:mana_powder", count: 2 }
+		{ item: "botania:spark", count: 2 }
+		{
+			item: {
+				id: "botania:mana_tablet"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "botania:mana_pool" }
+		{ item: "botania:livingrock", count: 8 }
+		{ item: "botania:livingwood", count: 8 }
+		{ item: "botania:dreamwood", count: 2 }
+		{ item: "botania:terrasteel_nugget", count: 2 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "botania"
+	}
+}

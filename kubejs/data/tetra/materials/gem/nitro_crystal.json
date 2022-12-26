@@ -1,0 +1,27 @@
+{
+    "key": "nitro_crystal",
+    "category": "gem",
+    "primary": "14",
+    "secondary": "2.0",
+    "tertiary": "4.5",
+    "durability": "5732",
+    "integrityCost": "2",
+    "integrityGain": "10",
+    "magicCapacity": "140",
+    "toolLevel": "7",
+    "toolEfficiency": "15",
+    "tints": {
+        "glyph": "fa372d",
+        "texture": "d43128"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "powah:crystal_nitro"
+    },
+    "requiredTools": {
+        "hammer": 4
+    }
+}

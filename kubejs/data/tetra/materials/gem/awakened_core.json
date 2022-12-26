@@ -1,0 +1,27 @@
+{
+    "key": "awakened_core",
+    "category": "gem",
+    "primary": "42",
+    "secondary": "3.2",
+    "tertiary": "16.4",
+    "durability": "27329",
+    "integrityCost": "1",
+    "integrityGain": "7",
+    "magicCapacity": "140",
+    "toolLevel": "8",
+    "toolEfficiency": "30.0",
+    "tints": {
+        "glyph": "fa8100",
+        "texture": "fa8100"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "draconicevolution:awakened_core"
+    },
+    "requiredTools": {
+        "hammer": 6
+    }
+}

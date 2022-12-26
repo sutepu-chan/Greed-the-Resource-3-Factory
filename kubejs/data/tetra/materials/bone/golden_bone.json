@@ -1,0 +1,27 @@
+{
+    "key": "golden_bone",
+    "category": "bone",
+    "primary": "7.4",
+    "secondary": "0.2",
+    "tertiary": "3.8",
+    "durability": "2400",
+    "integrityCost": "2",
+    "integrityGain": "12",
+    "magicCapacity": "160",
+    "toolLevel": "6",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "f5e340",
+        "texture": "ffe600"
+    },
+    "textures": [
+        "bone",
+        "crude"
+    ],
+    "material": {
+        "item": "dungeonsmod:golden_bone"
+    },
+    "requiredTools": {
+        "hammer": 6
+    }
+}

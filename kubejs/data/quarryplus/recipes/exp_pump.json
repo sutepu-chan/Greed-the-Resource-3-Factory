@@ -1,0 +1,54 @@
+{
+  "type": "quarryplus:workbench_recipe",
+  "id": "quarryplus:builtin_exp_pump",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/gold",
+      "count": 4
+    },
+    {
+      "tag": "forge:ingots/iron",
+      "count": 18
+    },
+    {
+      "tag": "forge:dusts/redstone",
+      "count": 64
+    },
+    [
+      {
+        "type": "forge:nbt",
+        "item": "minecraft:potion",
+        "count": 128,
+        "nbt": "{Potion:\"minecraft:water\"}"
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 1
+      }
+    ],
+    {
+      "item": "mob_grinding_utils:solid_xp_block",
+      "count": 4
+    },
+    {
+      "item": "mob_grinding_utils:solid_xp_baby",
+      "count": 8
+    },
+    {
+      "item": "botania:mana_pylon",
+      "count": 2
+    }
+  ],
+  "energy": 320000.0,
+  "showInJEI": true,
+  "result": {
+    "item": "quarryplus:exppump",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "value": "ExpPump",
+      "type": "quarryplus:machine_enabled"
+    }
+  ]
+}

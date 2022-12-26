@@ -1,0 +1,31 @@
+{
+    "conditions": [{
+        "type": "forge:mod_loaded",
+        "modid": "biggerreactors"
+    }],
+    "key": "ludicrite",
+    "category": "metal",
+    "primary": "13.1",
+    "secondary": "6.8",
+    "tertiary": "4.8",
+    "durability": "16764",
+    "integrityCost": "2",
+    "integrityGain": "7",
+    "magicCapacity": "128",
+    "toolLevel": "5",
+    "toolEfficiency": "12",
+    "tints": {
+        "glyph": "bf1fad",
+        "texture": "f0afe8"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "biggerreactors:ludicrite_ingot"
+    },
+    "requiredTools": {
+        "hammer": 4
+    }
+}

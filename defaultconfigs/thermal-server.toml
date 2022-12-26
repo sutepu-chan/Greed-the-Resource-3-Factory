@@ -1,0 +1,24 @@
+
+["Global Options"]
+	"Blocks Retain Tank Contents" = true
+["World Generation"]
+	#Set to FALSE to prevent 'Thermal Series' Apatite from generating.
+	Apatite = true
+	#Set to FALSE to prevent 'Thermal Series' Cinnabar from generating.
+	Cinnabar = true
+	#Set to FALSE to prevent 'Thermal Series' Niter from generating.
+	Niter = true
+	#Set to FALSE to prevent 'Thermal Series' Sulfur from generating.
+	Sulfur = true
+	#Set to FALSE to prevent 'Thermal Series' Copper from generating.
+	Copper = false
+	#Set to FALSE to prevent 'Thermal Series' Tin from generating.
+	Tin = false
+	#Set to FALSE to prevent 'Thermal Series' Lead from generating.
+	Lead = false
+	#Set to FALSE to prevent 'Thermal Series' Silver from generating.
+	Silver = false
+	#Set to FALSE to prevent 'Thermal Series' Nickel from generating.
+	Nickel = false
+	#Set to FALSE to prevent 'Thermal Series' Oil Sands from generating.
+	Oil = true

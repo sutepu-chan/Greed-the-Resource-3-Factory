@@ -1,0 +1,31 @@
+{
+    "conditions": [{
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    }],
+    "key": "gaia",
+    "category": "metal",
+    "primary": "16",
+    "secondary": "0.4",
+    "tertiary": "6.2",
+    "durability": "14462",
+    "integrityCost": "2",
+    "integrityGain": "10",
+    "magicCapacity": "130",
+    "toolLevel": "7",
+    "toolEfficiency": "14.8",
+    "tints": {
+        "glyph": "80bf9e",
+        "texture": "6dc998"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "botania:gaia_ingot"
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

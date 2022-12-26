@@ -1,0 +1,27 @@
+{
+    "key": "wyvern_core",
+    "category": "gem",
+    "primary": "15.5",
+    "secondary": "4.2",
+    "tertiary": "7.4",
+    "durability": "8821",
+    "integrityCost": "1",
+    "integrityGain": "6",
+    "magicCapacity": "130",
+    "toolLevel": "6",
+    "toolEfficiency": "15.0",
+    "tints": {
+        "glyph": "4e1885",
+        "texture": "4e1885"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "draconicevolution:wyvern_core"
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

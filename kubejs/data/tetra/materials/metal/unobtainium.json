@@ -1,0 +1,31 @@
+{
+    "conditions": [{
+        "type": "forge:mod_loaded",
+        "modid": "allthemodium"
+    }],
+    "key": "unobtainium",
+    "category": "metal",
+    "primary": "36.2",
+    "secondary": "4.2",
+    "tertiary": "6.8",
+    "durability": "16996",
+    "integrityCost": "1",
+    "integrityGain": "8",
+    "magicCapacity": "160",
+    "toolLevel": "8",
+    "toolEfficiency": "20",
+    "tints": {
+        "glyph": "6b1cde",
+        "texture": "6b1cde"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "allthemodium:unobtainium_ingot"
+    },
+    "requiredTools": {
+        "hammer": 7
+    }
+}

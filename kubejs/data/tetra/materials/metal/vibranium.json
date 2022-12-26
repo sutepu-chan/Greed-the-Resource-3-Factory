@@ -1,0 +1,31 @@
+{
+    "conditions": [{
+        "type": "forge:mod_loaded",
+        "modid": "allthemodium"
+    }],
+    "key": "vibranium",
+    "category": "metal",
+    "primary": "20.5",
+    "secondary": "3.2",
+    "tertiary": "5.4",
+    "durability": "8096",
+    "integrityCost": "1",
+    "integrityGain": "7",
+    "magicCapacity": "140",
+    "toolLevel": "7",
+    "toolEfficiency": "15",
+    "tints": {
+        "glyph": "1bb188",
+        "texture": "1bb188"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "allthemodium:vibranium_ingot"
+    },
+    "requiredTools": {
+        "hammer": 6
+    }
+}

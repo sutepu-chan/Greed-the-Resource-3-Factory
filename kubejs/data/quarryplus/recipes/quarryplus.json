@@ -1,0 +1,43 @@
+{
+  "type": "quarryplus:workbench_recipe",
+  "id": "quarryplus:builtin_quarryplus",
+  "ingredients": [{
+          "tag": "forge:ingots/terminite",
+          "count": 32
+      },
+      {
+          "tag": "forge:ingots/draconium",
+          "count": 32
+      },
+      {
+          "tag": "forge:ingots/terrasteel",
+          "count": 16
+      },
+      {
+          "item": "bloodmagic:reinforcedslate",
+          "count": 16
+      },
+      {
+          "item": "minecraft:end_crystal",
+          "count": 4
+      },
+      {
+          "tag": "forge:ingots/vibranium",
+          "count": 5
+      },
+      {
+          "item": "industrialforegoing:machine_frame_supreme",
+          "count": 2
+      }
+  ],
+  "energy": 320000.0,
+  "showInJEI": true,
+  "result": {
+      "item": "quarryplus:quarry",
+      "count": 1
+  },
+  "conditions": [{
+      "type": "forge:mod_loaded",
+      "modid": "quarryplus"
+  }]
+}

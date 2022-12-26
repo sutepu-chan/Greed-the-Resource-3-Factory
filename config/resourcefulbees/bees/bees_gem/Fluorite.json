@@ -1,0 +1,63 @@
+{
+  "flower": "mekanism:block_fluorite",
+  "maxTimeInHive": 2400,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "misc/fluorite_bee",
+  "ColorData": {
+    "honeycombColor": "#d6aedd",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 1,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "mekanism:fluorite_ore",
+        "outputs": [
+          {
+            "outputID": "mekanism:fluorite_gem",
+            "weight": 80
+          },
+          {
+            "outputID": "resourcefulbees:bee_jar",
+            "nbtData": {
+              "Entity": "resourcefulbees:fluorite_bee",
+              "BeeType": "fluorite",
+              "Color": "#d6aedd"
+            },
+            "weight": 20
+          }
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 1,
+    "mainOutput": "mekanism:fluorite_gem",
+    "mainOutputWeight": 0.8,
+    "mainOutputCount": 4,
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.5,
+    "bottleOutputCount": 1,
+    "recipeTime": 200
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Redstone",
+    "parent2": "Tin",
+    "breedWeight": 10,
+    "breedChance": 0.60,
+    "feedItem": "mekanism:block_fluorite",
+    "feedAmount": 1,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

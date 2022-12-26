@@ -1,0 +1,2159 @@
+{
+	id: "4D42B12F0EC9EB0A"
+	group: "1E2DE02B87CFF91D"
+	order_index: 3
+	filename: "energy"
+	title: "Energy"
+	icon: "mekanism:basic_energy_cube"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Powah"
+			icon: "powah:uraninite"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Early - late game energy production and storage."
+			description: [" Powah is a powerful energy production mod which can be used from early stages and until late game stages. Uraninite is the fundamental materials of this mod!"]
+			id: "7564B6F6725C5685"
+			tasks: [{
+				id: "47B521DCFE3B8A1B"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0F5F19D06EE90297"
+				type: "item"
+				item: "powah:uraninite_raw_dense"
+				count: 4
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			description: [
+				"You need this together with energizing rod to craft the following items. You can set up multiple energizing rod to speed up the process."
+				"You can use modular routers or Xnet to automate the crafting process."
+			]
+			dependencies: ["372977A288A9D166"]
+			id: "17C95C1468678E4C"
+			tasks: [
+				{
+					id: "16B73539FA126BA7"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "428563A87BF24982"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
+			rewards: [{
+				id: "0B8760CA9C098CD0"
+				type: "item"
+				item: "powah:energizing_rod_starter"
+			}]
+		}
+		{
+			title: "Have some paste first"
+			icon: { id: "powah:dielectric_paste", Count: 64b }
+			x: -2.5d
+			y: 0.0d
+			description: ["Another fundamental materials in this mod!"]
+			dependencies: ["7564B6F6725C5685"]
+			id: "372977A288A9D166"
+			tasks: [{
+				id: "33C04225951D4A23"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 64L
+			}]
+			rewards: [{
+				id: "74D008D45CE4006D"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 64
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["The wrench helps you configurate the energy cables"]
+			dependencies: ["372977A288A9D166"]
+			id: "3ED99F8251C51338"
+			tasks: [{
+				id: "68FE0C7DE49852A8"
+				type: "item"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["17C95C1468678E4C"]
+			id: "20BCC903B0557B13"
+			tasks: [{
+				id: "4ADC3E46A6EE9EF9"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2L
+			}]
+			rewards: [{
+				id: "213C891909FC9518"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["20BCC903B0557B13"]
+			id: "583C3DC7B174BF31"
+			tasks: [{
+				id: "37F65E10EC68D44B"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["583C3DC7B174BF31"]
+			id: "13CAE6C881AD3A7C"
+			tasks: [{
+				id: "4E6A3F46DEDF2EC2"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["13CAE6C881AD3A7C"]
+			id: "4A893ED088C26A1D"
+			tasks: [{
+				id: "7B636F9FA997DC20"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["4A893ED088C26A1D"]
+			id: "4A81F49072A5E736"
+			tasks: [{
+				id: "2AC586BC0744889E"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
+			rewards: [{
+				id: "3893AC6031103864"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			description: [
+				"The following list provide items for energy production"
+				"Note that there are tier lowering than the nitro tier. Take the nitro tiers as your ultiimate target."
+			]
+			dependencies: ["4A81F49072A5E736"]
+			id: "585029B79F5972D2"
+			tasks: [{
+				id: "7412139E0F5813D3"
+				type: "checkmark"
+				title: "Generators"
+			}]
+			rewards: [{
+				id: "0DE4F2DD52968790"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			description: ["Note that there are tiers lower than the nitro tier. Take the tier listed as your ultimate target!"]
+			dependencies: ["4A81F49072A5E736"]
+			id: "1CE6EABD3893CEE9"
+			tasks: [{
+				id: "3C406D90E61B97F7"
+				type: "checkmark"
+				title: "Useful items"
+			}]
+			rewards: [{
+				id: "74E03A7A249FA277"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.0d
+			description: ["Magamtor generates tons of energy from lava."]
+			dependencies: ["585029B79F5972D2"]
+			id: "23B3967554538214"
+			tasks: [{
+				id: "472701DC65A812C8"
+				type: "item"
+				item: "powah:magmator_nitro"
+			}]
+			rewards: [{
+				id: "04476F1DB9B5FCA9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 8.0d
+			description: ["Furnator generates energy from fuels"]
+			dependencies: ["585029B79F5972D2"]
+			id: "3074742A057B7C33"
+			tasks: [{
+				id: "783BD1DB88F532E7"
+				type: "item"
+				item: "powah:furnator_nitro"
+			}]
+			rewards: [{
+				id: "565CD1D5D2A86632"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			description: ["Solar panel generates a lot of energy from sunlight"]
+			dependencies: ["585029B79F5972D2"]
+			id: "6F593E296D3F7EB0"
+			tasks: [{
+				id: "7C21D05283E57936"
+				type: "item"
+				item: "powah:solar_panel_nitro"
+			}]
+			rewards: [{
+				id: "600519772790B08F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			description: [
+				"Thermo generator generates little energy from differences in temperature."
+				"Place it on top of lava or magma block, and pump water into it."
+			]
+			dependencies: ["585029B79F5972D2"]
+			id: "67F78F137B5A7E4A"
+			tasks: [{
+				id: "36D421B8E1728E65"
+				type: "item"
+				item: "powah:thermo_generator_nitro"
+			}]
+			rewards: [{
+				id: "03E75F4495C96C11"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Reactor!"
+			x: -4.5d
+			y: 8.0d
+			description: ["Largest energy provider in Powah. Craft 36 of this and place it on the ground. The multiblock structure will automatically form."]
+			dependencies: ["5C4FCCA392F4422B"]
+			id: "1A9C0AE3E898CD13"
+			tasks: [{
+				id: "02A0DC132FF3E6E3"
+				type: "item"
+				item: "powah:reactor_nitro"
+				count: 36L
+			}]
+			rewards: [{
+				id: "3078A5A1EB85399A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Chest for power"
+			x: -2.5d
+			y: 6.0d
+			description: ["It stores a large amount of energy"]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "711C0E6C0281C400"
+			tasks: [{
+				id: "17EDD94D1739FC9A"
+				type: "item"
+				item: "powah:energy_cell_nitro"
+			}]
+			rewards: [{
+				id: "5438472B76E20102"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Ender chest, but for power"
+			x: -0.5d
+			y: 6.0d
+			description: ["Copious amount of energy can be stored and access across dimensions, neglecting distance!"]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "54C14F0300AFCDF6"
+			tasks: [{
+				id: "2404CE5B72978E8E"
+				type: "item"
+				item: "powah:ender_cell_nitro"
+			}]
+			rewards: [{
+				id: "53326B2F0B70D4D8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Energy cable"
+			x: -2.5d
+			y: 8.0d
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "7DE87B0CE44A9718"
+			tasks: [{
+				id: "7208DF128775C2EB"
+				type: "item"
+				item: "powah:energy_cable_nitro"
+				count: 12L
+			}]
+			rewards: [{
+				id: "14E0B22C27C481C9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Charging without distance!"
+			x: 1.5d
+			y: 6.0d
+			description: ["It charges items in the player's inventory. You need the binding card to get this function."]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "5D857DD4F53263F0"
+			tasks: [{
+				id: "00691EEA666AEAEB"
+				type: "item"
+				item: {
+					id: "powah:player_transmitter_nitro"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0D3972436603AFCB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Charging intraworld"
+			x: 3.5d
+			y: 6.0d
+			dependencies: ["5D857DD4F53263F0"]
+			id: "0C23822F3E1A93A3"
+			tasks: [{
+				id: "1519E0BC75C713D5"
+				type: "item"
+				item: "powah:binding_card"
+			}]
+			rewards: [{
+				id: "7A0D2BCF2578E440"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Charging interworld"
+			x: 1.5d
+			y: 8.0d
+			dependencies: ["5D857DD4F53263F0"]
+			id: "08D5FB29486B71CC"
+			tasks: [{
+				id: "1B1ABFE69D0A42AA"
+				type: "item"
+				item: "powah:binding_card_dim"
+			}]
+			rewards: [{
+				id: "60790E6F2FC7C6FB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			description: ["Charge items in chest directly at high speed"]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "44682D85E857FB5A"
+			tasks: [{
+				id: "13CACDF6DCAA5B9A"
+				type: "item"
+				item: "powah:energy_hopper_nitro"
+			}]
+			rewards: [{
+				id: "66DFA809EEB89B01"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			description: ["It removes energy from items!"]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "696527D5E9872D09"
+			tasks: [{
+				id: "0691E0B7E384A422"
+				type: "item"
+				item: "powah:energy_discharger_nitro"
+			}]
+			rewards: [{
+				id: "177060DACE3E8C3B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Portable energy cell"
+			x: -0.5d
+			y: 4.0d
+			description: ["You can equip this to the curios inventory."]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "5B637E0F1D7F6AB9"
+			tasks: [{
+				id: "416CFDF00A80DCC4"
+				type: "item"
+				item: {
+					id: "powah:battery_nitro"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6EF47F674B91E2EE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Fun item!"
+			x: -0.5d
+			y: -2.0d
+			description: ["This gives a thunder strike when you throw it out."]
+			dependencies: ["17C95C1468678E4C"]
+			id: "10037E34831F4058"
+			tasks: [{
+				id: "4E6719248613CBF5"
+				type: "item"
+				item: "powah:charged_snowball"
+			}]
+		}
+		{
+			title: "Powerful coolant for your reactor"
+			x: -4.5d
+			y: 6.0d
+			description: ["Dry ice spawns naturally underground. Get some dryice when you exploring the caves."]
+			dependencies: ["585029B79F5972D2"]
+			id: "5C4FCCA392F4422B"
+			tasks: [{
+				id: "61E1B5359A6BC570"
+				type: "item"
+				item: "powah:dry_ice"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7B30025C95A09684"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			description: ["Input cyanite and water. It will wash the cyanite to produce blutonium."]
+			dependencies: ["3EC6D82FE0BDA841"]
+			id: "0546B61B932B7D5A"
+			tasks: [{
+				id: "1A48B1E1CA6EA6A9"
+				type: "item"
+				item: "biggerreactors:cyanite_reprocessor"
+			}]
+			rewards: [{
+				id: "11BE5AF107ACC92A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "Bigger reactor"
+			x: 5.5d
+			y: -2.0d
+			subtitle: "Mid - late game energy production"
+			description: [
+				"Bigger reactor is one of the most classical mod in Minecraft. Smelt coal in furnace to get graphite ingots, the fundamental material in Bigger Reactors."
+				"{image:kubejs:textures/quests/energy/energy_bigger_reactor.png width:178 height:100 align:1}"
+			]
+			id: "2D4FBEA12138BE22"
+			tasks: [{
+				id: "05A7A010E5255988"
+				type: "item"
+				item: "biggerreactors:graphite_ingot"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "49848D55B32C3EA4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+				{
+					id: "759E5C8B696008CA"
+					type: "item"
+					item: "allthemodium:molten_bluelava_bucket"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Bigger reactor"
+			x: 5.5d
+			y: 0.0d
+			description: [
+				"Time to have the BIGGER REACTOR. The smallest and largest size available are 3x3x3 and 32x48x32 respectively."
+				"The reactor uses uranium as fuel and produces copious amount of energy."
+				"Remember to include coolant for your reactor to maximize energy produced."
+			]
+			dependencies: ["2D4FBEA12138BE22"]
+			id: "724CC76F727ACC29"
+			tasks: [{
+				id: "0B7CEE3F37FE8DD0"
+				type: "item"
+				item: "biggerreactors:reactor_terminal"
+			}]
+			rewards: [{
+				id: "36904CD5C5406BA6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "Bigger turbine"
+			x: 7.5d
+			y: 0.0d
+			description: ["If you refuses to put coolant into the reactor, you can use water as the coolant. The steam produced can also produce power in the steam turbine"]
+			dependencies: ["724CC76F727ACC29"]
+			id: "43902BFDDD1DE300"
+			tasks: [{
+				id: "7E0B7B7FE98C4DFE"
+				type: "item"
+				item: "biggerreactors:turbine_terminal"
+			}]
+			rewards: [{
+				id: "685D33A9DDB9F84A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			description: ["Cyanite ingot is actually the nuclear waste of Bigger Reactor. Input uranium ingot into the reactor and wait a while. Then you will get a cyanite ingot in the output port of the reactor."]
+			dependencies: ["724CC76F727ACC29"]
+			id: "3EC6D82FE0BDA841"
+			tasks: [{
+				id: "2788219CA36B6F09"
+				type: "item"
+				item: "biggerreactors:cyanite_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1F36265DA5D7FAAA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			description: ["Putting cyanite ingot into cyanite reprocessor will get you blutonium ingot."]
+			dependencies: ["0546B61B932B7D5A"]
+			id: "3D594986739BF2FF"
+			tasks: [{
+				id: "55D50024A465882A"
+				type: "item"
+				item: "biggerreactors:blutonium_ingot"
+			}]
+			rewards: [{
+				id: "389FD7D27D184F2A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "Flux network"
+			x: -11.5d
+			y: 4.0d
+			subtitle: "Easy early game wireless energy transmission"
+			description: [
+				"This mod is a very convenient mod in energy transmission across long distance and dimensions."
+				"Flux dust is obtained by throwing redstone dust under an obdisian block then left click the block."
+			]
+			id: "79EB746554C0DF82"
+			tasks: [{
+				id: "3197A45823CB659A"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64L
+			}]
+			rewards: [{
+				id: "2637BC7DDF1E766C"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64
+			}]
+		}
+		{
+			title: "Other materials"
+			x: -11.5d
+			y: 6.0d
+			description: ["Other materials that you need"]
+			dependencies: ["79EB746554C0DF82"]
+			id: "71F56F4187C165DE"
+			tasks: [
+				{
+					id: "1A1FFA2F4C659A2C"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+				}
+				{
+					id: "6FB5B29CD6485D7A"
+					type: "item"
+					item: "fluxnetworks:flux_block"
+				}
+			]
+			rewards: [{
+				id: "2CDCEA81DA330A28"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64
+			}]
+		}
+		{
+			x: -14.5d
+			y: 8.0d
+			description: ["You can access the configuration of channels through this block."]
+			dependencies: ["71F56F4187C165DE"]
+			id: "4103DDC80C8D9142"
+			tasks: [{
+				id: "6208CFB6412A1F37"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [
+				{
+					id: "327F37985C0A0B9F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+				{
+					id: "49ED3742A0F29EA9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 8.0d
+			description: ["An energy storage for flux network."]
+			dependencies: ["71F56F4187C165DE"]
+			id: "6730FC20812C4709"
+			tasks: [{
+				id: "55F038643BB73055"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "2E9411B5B8B1022C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+				{
+					id: "48D87EC33538442B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Energy transfer"
+			x: -12.5d
+			y: 8.0d
+			description: ["Flux plug import energy into the flux network, and the flux point extract energy from the network to power machines."]
+			dependencies: ["71F56F4187C165DE"]
+			id: "3C573BC2E248BD1B"
+			tasks: [
+				{
+					id: "063A95570B1036C7"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+				{
+					id: "0C028673C574B3B3"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+			]
+			rewards: [
+				{
+					id: "0E0FB7C58B4EB500"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+				{
+					id: "7FE1B88B990CC2D1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 8.0d
+			description: ["You can copy and paste the configuration with this wrench"]
+			dependencies: ["71F56F4187C165DE"]
+			id: "0A4889260A3D5B45"
+			tasks: [{
+				id: "35302C0163E23AFD"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+			rewards: [
+				{
+					id: "5B51F0F917279363"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+				{
+					id: "79717A61C3C6CA88"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "Early - late game energy production"
+			description: [
+				"Generator from Industrial Foregoing is the successor of generators from Extra Utilities 2 from 1.12.2. They work at the same way."
+				"There are 18 types of generator, and one myelial reactor. Once all the 18 types of generator is working in loaded chunks, the mycelial reaction will produce 25,000,000FE/t. Even stronger than the rainbow generator from EU2!!!"
+			]
+			id: "51EB5D8B1CAAC803"
+			tasks: [{
+				id: "0A944C3D46C88763"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [{
+				id: "683E0294A99DDE34"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: ["Try to automate this. This is interesting ; )"]
+			dependencies: ["6E1CEC5B787E44F2"]
+			id: "30EEEB584D44CC0F"
+			tasks: [{
+				id: "64157B6A8CF81D4C"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+			rewards: [
+				{
+					id: "14A801D2FEC4A768"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "17B27A24CB642C06"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "unobtainable"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Draconic Energy Storage"
+			x: 5.5d
+			y: 6.0d
+			subtitle: "Late game energy storage and production"
+			description: [
+				"Draconic Evolution has a energy storage with different tiers which sotres different amount of energy."
+				"This is what a tier 8 energy core looks like! Place the energy core down and then right click. Click the \"Build Guide\" option in the GUI and construct the energy cell according to its guide."
+				"{image:kubejs:textures/quests/energy/energy_draconic_storage.png width:178 height:100 align:1}"
+			]
+			id: "61BC8C2A0524FC1B"
+			tasks: [{
+				id: "79C2D4EFF6DA635A"
+				type: "item"
+				item: "draconicevolution:energy_core"
+			}]
+			rewards: [{
+				id: "1BA9304E47B2D7B4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: 8.0d
+			description: [
+				"Here is a list of materials on constructing tier 8 energy core."
+				"{image:kubejs:textures/quests/energy/energy_reactor.png width:230 height:100 align:1 fit:true}"
+			]
+			dependencies: ["61BC8C2A0524FC1B"]
+			id: "1AEE3033DD446B54"
+			tasks: [{
+				id: "20482121EBC5E1EF"
+				type: "checkmark"
+				title: "Tier 8"
+			}]
+			rewards: [{
+				id: "450269CF126F435E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "unobtainable"
+					}
+				}
+			}]
+		}
+		{
+			title: "Draconic reactor"
+			x: 7.5d
+			y: 6.0d
+			description: [
+				"Reactors from Draconic Evolution is similar to 1.12.2... EXTREMELY DANGEROUS."
+				"I recommend you to build the reactor in the void dimension, and take a look at the tutorial on YT first."
+			]
+			dependencies: ["61BC8C2A0524FC1B"]
+			id: "0D57A8A2CEC435D8"
+			tasks: [
+				{
+					id: "4922D1276E3B3C0F"
+					type: "item"
+					item: "draconicevolution:reactor_injector"
+				}
+				{
+					id: "3D7069D0E85001CA"
+					type: "item"
+					item: "draconicevolution:reactor_core"
+				}
+			]
+			rewards: [{
+				id: "0D81E89C24F499C7"
+				type: "item"
+				item: "mysticalagradditions:awakened_draconium_crux"
+				count: 24
+			}]
+		}
+		{
+			title: "Dynamos"
+			x: -11.5d
+			y: -2.0d
+			subtitle: "Early game energy production"
+			description: [
+				"Try the dynamos from Thermal Series"
+				"The dynamos are early game energy suppliers."
+			]
+			id: "75E98E90A6D25108"
+			tasks: [{
+				id: "591F5273E82A02CC"
+				type: "checkmark"
+				title: "Dynamos"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -2.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "508DF1C4265BDEE0"
+			tasks: [{
+				id: "1484728432D6999D"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "1EBE11E8846586C9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "61FE1A8CDDEFAD02"
+			tasks: [{
+				id: "0C20296EE21901AD"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "08EEEF3310FB8D6F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 0.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "1912185C9222D1C3"
+			tasks: [{
+				id: "4F0CCA033101D529"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "775DE681372EF7D6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 2.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "1B929AA025C2D5BA"
+			tasks: [{
+				id: "2E0E3B4426AF8A64"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "4BE111B1681352CC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -2.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "5793AFE1F732F211"
+			tasks: [{
+				id: "64D5FE05134BFA2F"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [{
+				id: "59A1B881C5601161"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "713655EE92E7BFDD"
+			tasks: [{
+				id: "143307741FEFF761"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [{
+				id: "1CB6878C33C31265"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "7C9488C5B01C0453"
+			tasks: [{
+				id: "6C41A1AE57894AC2"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [{
+				id: "199B42E7D3D1639F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 8.0d
+			description: ["Here is the portal for void dimension. Do not move instantly when you just enter the dimension XD because you may fall off!"]
+			dependencies: ["0D57A8A2CEC435D8"]
+			id: "5D80A4A7A1B2C433"
+			tasks: [{
+				id: "2576CCFD092A561E"
+				type: "item"
+				item: "javd:portal_block"
+			}]
+			rewards: [{
+				id: "127CF54A3E4E545A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Notes on soul lava"
+			x: 7.5d
+			y: -2.0d
+			description: [
+				"Due to the property of soul lava, you can't place anything in the flowing soul lava. To place the soul lava adjacently, you may use the following two ways."
+				"1) Place the soul lava quickly next to each other before they start to flow."
+				"2) Use Fluid Placer from Industrial Foregoing which can forcely place soul lava."
+			]
+			dependencies: ["2D4FBEA12138BE22"]
+			id: "4BBBE0166BB7C2D8"
+			tasks: [{
+				id: "502C0AAAF8D3DA54"
+				type: "item"
+				item: "allthemodium:molten_bluelava_bucket"
+				count: 8L
+			}]
+			rewards: [{
+				id: "7601C3500500BDC0"
+				type: "item"
+				item: "allthemodium:molten_bluelava_bucket"
+				count: 4
+			}]
+		}
+		{
+			title: "Mekanism reactor"
+			x: 10.0d
+			y: -2.0d
+			subtitle: "Late game energy production"
+			description: [
+				"I recommend you to set up another set of machines for sulfuric acid production to maintain a stable supply of acid."
+				""
+				"[Optional]"
+				"It is highly recommended that the fission reactor is setup in the void dimension for safety reason."
+			]
+			id: "283EF8B85920CD11"
+			tasks: [
+				{
+					id: "240C678FB4484B31"
+					type: "item"
+					item: "mekanism:rotary_condensentrator"
+				}
+				{
+					id: "7214889D7667EB1C"
+					type: "item"
+					item: "mekanism:chemical_oxidizer"
+				}
+				{
+					id: "13D49D8FBA9FC48C"
+					type: "item"
+					item: "mekanism:chemical_infuser"
+					count: 2L
+				}
+				{
+					id: "08B5B90D3E08019C"
+					type: "item"
+					item: "mekanism:pressurized_reaction_chamber"
+				}
+			]
+			rewards: [{
+				id: "1D21CC5F1C7DE4C4"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+				count: 32
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"Insert the uranium into enrichment chamber and the yellow cake uranium will be produced."
+				"After that, put the yellow cake uranium into chemical oxidizer to get uranium oxide. This is one of the components to produce uranium hexafluoride."
+			]
+			dependencies: ["283EF8B85920CD11"]
+			id: "10BEE15F8149F03C"
+			tasks: [{
+				id: "3BB914630C0A95BE"
+				type: "item"
+				item: "mekanism:yellow_cake_uranium"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3408C4F64B7999F8"
+				type: "item"
+				item: "mekanism:yellow_cake_uranium"
+				count: 32
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			description: [
+				"Insert the fluorite and hydrofluorite acid will be produced."
+				""
+				"This is one of the components to produce uranium hexafluoride."
+			]
+			dependencies: ["283EF8B85920CD11"]
+			id: "08DA110CC3AE742D"
+			tasks: [{
+				id: "07B0684632CC13CC"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+			rewards: [{
+				id: "07ED5C561C8DE4DB"
+				type: "item"
+				item: "mekanism:block_fluorite"
+				count: 16
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			description: ["In this step, uranium hexafluoride can be obtained and this is the source of fissile fuel."]
+			dependencies: [
+				"08DA110CC3AE742D"
+				"10BEE15F8149F03C"
+			]
+			id: "56DD938CBECEE362"
+			tasks: [{
+				id: "095076BA9CF92F0D"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "48EC573DE6BE706E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "unobtainable"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			description: ["Fissile fuel is the fuel for fission reactor and let it proceed continuously. Input the uranium hexafluoride and fissile fuel will be produced."]
+			dependencies: ["56DD938CBECEE362"]
+			id: "26CF532FEAF7A291"
+			tasks: [{
+				id: "750373931F04EDF4"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "28B48CCFD26EA151"
+				type: "item"
+				item: "mekanism:reprocessed_fissile_fragment"
+			}]
+		}
+		{
+			title: "Smallest fission reactor"
+			x: 16.0d
+			y: 0.0d
+			description: [
+				"[Warning!!]"
+				"Fission reactor is a structure which may cause **radioactive** explosion. If explosion happens, the radioactive will contaminate the environment and kill anything inside the area, including you. The contamination lasts for one day."
+				"There are 2 types of coolants, including water and sodium. Sodium has a higher cooling efficiency."
+				"Do ensure a sufficient amount of coolant and fuel to avoid explosion."
+				"Nuclear waste is one of **radioactive** fluid in mekanism. It can be transported by pressurized tube. When you start output the waste, make sure that you set the tube correctly since you cannot break it anymore or radioactive will be exposed (unless you drain it into the waste barrel)."
+				"{image:kubejs:textures/quests/energy/energy_mekanism_fission.png width:176 height:100 align:1}"
+			]
+			dependencies: ["26CF532FEAF7A291"]
+			id: "0D987F659603212C"
+			tasks: [
+				{
+					id: "63BDF458CB4C90E5"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+					count: 26L
+				}
+				{
+					id: "472D091751865358"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+					count: 2L
+				}
+				{
+					id: "576FCEBAC40E1C11"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					id: "0FCFDEEC85CC430F"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+				{
+					id: "1C9C497567066DB3"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "3F64F4A6659A6B94"
+				type: "item"
+				item: "alltheores:lead_block"
+				count: 64
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.0d
+			description: [
+				"The fission reactor will convert the sodium to heated sodium. The boiler is used to convert the heated sodium to sodium and a cycle is formed."
+				""
+				"[Reminder]"
+				"The boiler comsume water with a high speed. Please ensure that you have a sufficient supply of water."
+				"{image:kubejs:textures/quests/energy/energy_mekanism_boiler.png width:176 height:100 align:1}"
+			]
+			dependencies: ["04DE5228E22FC706"]
+			id: "2C486BA964461050"
+			tasks: [
+				{
+					id: "79F8AE3F494D46FA"
+					type: "item"
+					item: "mekanism:boiler_casing"
+					count: 26L
+				}
+				{
+					id: "5C0B54B6CF3DB778"
+					type: "item"
+					item: "mekanism:boiler_valve"
+					count: 2L
+				}
+				{
+					id: "03AA8D96087F58FA"
+					type: "item"
+					item: "mekanism:superheating_element"
+				}
+				{
+					id: "284890CCA350F522"
+					type: "item"
+					item: "mekanism:structural_glass"
+				}
+				{
+					id: "1EB99A28FEFAC4FA"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+				}
+			]
+			rewards: [{
+				id: "781D4F7D48C6157E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			description: ["Ludicrite block is a great coolant for your reactor and turbine."]
+			dependencies: ["3D594986739BF2FF"]
+			id: "7EBAFCA54300A95A"
+			tasks: [{
+				id: "30F38B6FF41595D2"
+				type: "item"
+				item: "biggerreactors:ludicrite_block"
+			}]
+			rewards: [{
+				id: "02900A2D1A9E10EE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "Smallest industrial turbine"
+			x: 18.0d
+			y: -2.0d
+			description: [
+				"Industrial turbine is the structure which use steam to produce electricity. After using fission reactor, lots of steam will be produced and input the steam into turbine to provide a large amount of electricity."
+				"{image:kubejs:textures/quests/energy/energy_mekanism_turbine.png width:176 height:100 align:1}"
+			]
+			dependencies: ["5D9F44F3EB630996"]
+			id: "59E96E995FA4259B"
+			tasks: [
+				{
+					id: "467D57815EA9C8C4"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+					count: 74L
+				}
+				{
+					id: "2034394F410BAF61"
+					type: "item"
+					item: "mekanismgenerators:turbine_valve"
+					count: 2L
+				}
+				{
+					id: "7E8F3168377F18D6"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+					count: 8L
+				}
+				{
+					id: "7D36A52409245E88"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+					count: 4L
+				}
+				{
+					id: "530A08838B68D7C7"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+				{
+					id: "0061C166B99CB9A6"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+					count: 9L
+				}
+				{
+					id: "232D5CBBFF9B3DBF"
+					type: "item"
+					item: "mekanismgenerators:turbine_vent"
+					count: 24L
+				}
+				{
+					id: "2A8F9C52315026C7"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "26092558C264A957"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["Here are the all types of generator."]
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "6E1CEC5B787E44F2"
+			tasks: [
+				{
+					id: "6011B74793A67286"
+					type: "item"
+					item: "industrialforegoing:mycelial_halitosis"
+				}
+				{
+					id: "14EB29A30A365331"
+					type: "item"
+					item: "industrialforegoing:mycelial_magma"
+				}
+				{
+					id: "55D888A7CE787367"
+					type: "item"
+					item: "industrialforegoing:mycelial_pink"
+				}
+				{
+					id: "6454DD383067B1C9"
+					type: "item"
+					item: "industrialforegoing:mycelial_netherstar"
+				}
+				{
+					id: "6F8F1107C6C24224"
+					type: "item"
+					item: "industrialforegoing:mycelial_death"
+				}
+				{
+					id: "673DAFBCE29FDD37"
+					type: "item"
+					item: "industrialforegoing:mycelial_rocket"
+				}
+				{
+					id: "7621CD4D85611D20"
+					type: "item"
+					item: "industrialforegoing:mycelial_crimed"
+				}
+				{
+					id: "2ACBE9D9FA5A8164"
+					type: "item"
+					item: "industrialforegoing:mycelial_meatallurgic"
+				}
+				{
+					id: "4A93756621423D03"
+					type: "item"
+					item: "industrialforegoing:mycelial_frosty"
+				}
+				{
+					id: "65E95A08B663B712"
+					type: "item"
+					item: "industrialforegoing:biofuel_generator"
+				}
+				{
+					id: "5C97C780A14215FC"
+					type: "item"
+					item: "industrialforegoing:mycelial_furnace"
+				}
+				{
+					id: "756262B62376609D"
+					type: "item"
+					item: "industrialforegoing:mycelial_slimey"
+				}
+				{
+					id: "34861376CADE797C"
+					type: "item"
+					item: "industrialforegoing:mycelial_slimey"
+				}
+				{
+					id: "5A01C43CD16F237A"
+					type: "item"
+					item: "industrialforegoing:mycelial_culinary"
+				}
+				{
+					id: "0E72F1870B60525F"
+					type: "item"
+					item: "industrialforegoing:mycelial_potion"
+				}
+				{
+					id: "2B8A3FBDFF081768"
+					type: "item"
+					item: "industrialforegoing:mycelial_disenchantment"
+				}
+				{
+					id: "64BC4D04E8F52540"
+					type: "item"
+					item: "industrialforegoing:mycelial_ender"
+				}
+				{
+					id: "722522F7C7A66FAE"
+					type: "item"
+					item: "industrialforegoing:mycelial_explosive"
+				}
+			]
+			rewards: [
+				{
+					id: "3447A3F78E0CBEA1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 64
+				}
+				{
+					id: "27E45478BA430A6A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 2.0d
+			description: ["This item can store the nuclear waste and the spent nuclear waste. The nuclear waste will slowly disappear and this is the only way to drain the waste."]
+			dependencies: ["0D987F659603212C"]
+			id: "1838516F7A67D29C"
+			tasks: [{
+				id: "7B34C68C469785BE"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+			}]
+			rewards: [{
+				id: "7B267B50944F95E8"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+			}]
+		}
+		{
+			title: "Induction matrix"
+			x: 10.0d
+			y: 2.0d
+			subtitle: "Mid - Late game energy storage"
+			description: [
+				"Induction matrix is able to store an enormous amount of energy. Larger size of matrix allows you to store more energy. Maximum size of matrix is 18x18x18."
+				"All edges of the block must be made using Induction Casing. Induction port can be added to any face with either input or output configurations."
+				"The inside of the cube can be filled with either Induction Providers, Induction Cells or air blocks. Higher level of provider increases the transmission speed and higher tier of induction cell increases the energy storage. The providers and cells does not have to match tiers inside the matrix."
+				"{image:kubejs:textures/quests/energy/energy_induction_matrix.png width:176 height:100 align:1}"
+			]
+			id: "45F035A0871B5566"
+			tasks: [
+				{
+					id: "29E68A66F29EAD0B"
+					type: "item"
+					item: {
+						id: "mekanism:induction_port"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0738175818A46D90"
+					type: "item"
+					item: {
+						id: "mekanism:induction_casing"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "793BC68C207EAEE5"
+					type: "item"
+					item: {
+						id: "mekanism:ultimate_induction_provider"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "39B701EB7A76309D"
+					type: "item"
+					item: "mekanism:ultimate_induction_cell"
+				}
+			]
+			rewards: [{
+				id: "404C03C896AAA17E"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+				count: 10
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			description: [
+				"Solar neutron activator convert nuclear waste to polonium, which is one of a radioactive fluid, under sunlight."
+				""
+				"[Reminder]"
+				"In void portal, sun will exist for a long time. It can keep the machine proceed."
+			]
+			dependencies: ["1838516F7A67D29C"]
+			id: "515ECC493B9CA77D"
+			tasks: [{
+				id: "12085AA0CC56C32B"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			rewards: [{
+				id: "79DDEA236F538C4A"
+				type: "item"
+				item: "mekanism:block_fluorite"
+				count: 32
+			}]
+		}
+		{
+			title: "Anti-radiation suit"
+			x: 16.0d
+			y: -2.0d
+			description: ["Once the radiation leaked, this set of suit can protect you from damaging by the radiation."]
+			dependencies: ["0D987F659603212C"]
+			id: "4DB72DE5A9802ACC"
+			tasks: [
+				{
+					id: "5463D7804F9B2EB8"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_mask"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "64908FB53324FD8F"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_gown"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "20F774F25B339A7D"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "77BAC3E140E238B3"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "726B34DAD6B05761"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+				count: 10
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.0d
+			description: ["Isotopic centrifuge convert the nuclear waste to plutonium, which is one of radioactive fluid."]
+			dependencies: ["1838516F7A67D29C"]
+			id: "7FDEC0779CEE6CCC"
+			tasks: [{
+				id: "64FFA444B11FEF17"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "4545745BAEE3E8D0"
+				type: "item"
+				item: "mekanism:electric_pump"
+				count: 4
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			description: [
+				"Pressurized reaction chamber turns polonium and plutonium into their pellets from flourites. Spent nuclear waste can be transferred to radioactive waste barrel and let it disappear."
+				""
+				"[Note]"
+				"Plutonium and polonium pellet is not radioactive!"
+			]
+			dependencies: [
+				"7FDEC0779CEE6CCC"
+				"515ECC493B9CA77D"
+			]
+			id: "7F04D8DACBBA4586"
+			tasks: [{
+				id: "0E73BC76D78E1942"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [{
+				id: "247EC593EFE9AD97"
+				type: "item"
+				item: "mekanism:block_fluorite"
+				count: 32
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			description: ["Plutonium pellet is one of components to make SPS casing and other late-game equipment in mekanism."]
+			dependencies: ["7F04D8DACBBA4586"]
+			id: "1E7E2A1E2063F02D"
+			tasks: [{
+				id: "52061FBE5B156032"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+			rewards: [{
+				id: "773911E92648ED48"
+				type: "item"
+				item: "mekanism:dust_fluorite"
+				count: 64
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.0d
+			description: ["Polonium pellet is one of components to make SPS casing and other late-game equipment in mekanism."]
+			dependencies: ["7F04D8DACBBA4586"]
+			id: "13DACCF59A89B100"
+			tasks: [{
+				id: "2F257CCD69F61F1B"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [{
+				id: "5C91DE558B1D9ED8"
+				type: "item"
+				item: "mekanism:dust_fluorite"
+				count: 64
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			description: ["Before constructing the Supercritical Phase Shifte, supercharged coil is needed to charge the polonium and turn it into anitmatter(fluid)."]
+			dependencies: [
+				"13DACCF59A89B100"
+				"1E7E2A1E2063F02D"
+			]
+			id: "0F08C52795B87761"
+			tasks: [{
+				id: "3D3ADF975BFF73F7"
+				type: "item"
+				item: "mekanism:supercharged_coil"
+			}]
+			rewards: [{
+				id: "09A875B7E8D02737"
+				type: "item"
+				item: "mekanism:ultimate_induction_cell"
+				count: 4
+			}]
+		}
+		{
+			title: "Supercritical Phase Shifter"
+			x: 10.0d
+			y: 6.0d
+			description: [
+				"Supercritical Phase Shifter is a structure that convert the polonium into antimatter(fluid). It requires a large amount of electricity and polonium."
+				"{image:kubejs:textures/quests/energy/energy_mekanism_sps.png width:176 height:100 align:1}"
+			]
+			dependencies: ["0F08C52795B87761"]
+			id: "30E0721E620D315C"
+			tasks: [
+				{
+					id: "30B12BC340129FC0"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "1BD9FAF63BF4882F"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 3L
+				}
+				{
+					id: "06837062C251EA87"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 64L
+				}
+				{
+					id: "0E5BA0D53BAE1D83"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 59L
+				}
+			]
+			rewards: [{
+				id: "71BDE6FAE79DC6AA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			description: [
+				"Chemical crystallizer convert fluid antimatter into solid antimatter."
+				"Antimatter is used in many recipes in this modpack."
+			]
+			dependencies: ["30E0721E620D315C"]
+			id: "72E7CE7026CC0993"
+			tasks: [{
+				id: "4883F2D4BA711562"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+			rewards: [{
+				id: "756B7917676F8092"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			title: "Water as coolant"
+			x: 18.0d
+			y: 0.0d
+			description: ["Water will be converted into steam if using as coolant. Make wise use of steam by turbine."]
+			dependencies: ["0D987F659603212C"]
+			id: "5D9F44F3EB630996"
+			tasks: [{
+				id: "4BFA5CCCE84215EC"
+				type: "checkmark"
+				title: "water"
+			}]
+			rewards: [{
+				id: "32BC5E0F749F48D5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Sodium as coolant"
+			x: 18.0d
+			y: 2.0d
+			description: ["If you want to use sodium as coolant, It requires more machine for you to convert back to sodium"]
+			dependencies: ["0D987F659603212C"]
+			id: "04DE5228E22FC706"
+			tasks: [{
+				id: "659FF6AB6C10DD74"
+				type: "checkmark"
+				title: "Sodium"
+			}]
+			rewards: [{
+				id: "367319B42886DC10"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+				count: 2
+			}]
+		}
+	]
+}

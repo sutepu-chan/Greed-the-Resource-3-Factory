@@ -1,0 +1,37 @@
+{
+	id: "291C33038F7E635F"
+	order_index: 5
+	title: "unobtainable"
+	icon: "upgrade_aquatic:orange_jelly_torch"
+	loot_size: 1
+	rewards: [
+		{ item: "atmospheric:kousa_sapling", count: 64 }
+		{ item: "atmospheric:grimwood_sapling", count: 64 }
+		{ item: "upgrade_aquatic:pink_jelly_torch", count: 64 }
+		{ item: "upgrade_aquatic:purple_jelly_torch", count: 64 }
+		{ item: "upgrade_aquatic:blue_jelly_torch", count: 64 }
+		{ item: "upgrade_aquatic:green_jelly_torch", count: 64 }
+		{ item: "upgrade_aquatic:yellow_jelly_torch", count: 64 }
+		{ item: "upgrade_aquatic:orange_jelly_torch", count: 64 }
+		{ item: "upgrade_aquatic:red_jelly_torch", count: 64 }
+		{ item: "upgrade_aquatic:white_jelly_torch", count: 64 }
+		{ item: "upgrade_aquatic:tongue_kelp", count: 64 }
+		{ item: "upgrade_aquatic:thorny_kelp", count: 64 }
+		{ item: "upgrade_aquatic:ochre_kelp", count: 64 }
+		{ item: "upgrade_aquatic:polar_kelp", count: 64 }
+		{ item: "atmospheric:ivory_travertine", count: 64 }
+		{ item: "atmospheric:peach_travertine", count: 64 }
+		{ item: "atmospheric:persimmon_travertine", count: 64 }
+		{ item: "atmospheric:saffron_travertine", count: 64 }
+		{ item: "atmospheric:saffron_travertine", count: 64 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "unobtainable"
+	}
+}

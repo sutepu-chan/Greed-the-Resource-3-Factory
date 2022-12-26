@@ -1,0 +1,31 @@
+{
+    "conditions": [{
+        "type": "forge:mod_loaded",
+        "modid": "biggerreactors"
+    }],
+    "key": "blutonium",
+    "category": "metal",
+    "primary": "6.4",
+    "secondary": "3.4",
+    "tertiary": "3.1",
+    "durability": "1823",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "82",
+    "toolLevel": "3",
+    "toolEfficiency": "8.2",
+    "tints": {
+        "glyph": "6ec0fa",
+        "texture": "4983ad"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "biggerreactors:blutonium_ingot"
+    },
+    "requiredTools": {
+        "hammer": 2
+    }
+}

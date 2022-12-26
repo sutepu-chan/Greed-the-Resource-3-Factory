@@ -1,0 +1,38 @@
+{
+  "type": "quarryplus:workbench_recipe",
+  "id": "quarryplus:builtin_miningwell_plus",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/allthemodium",
+      "count": 1
+    },
+    {
+      "item": "astralsorcery:aquamarine",
+      "count": 16
+    },
+    {
+      "item": "astralsorcery:stardust",
+      "count": 4
+    },
+    {
+      "item": "astralsorcery:illumination_powder",
+      "count": 8
+    },
+    {
+      "item": "botania:manasteel_pick",
+      "count": 1
+    }
+  ],
+  "energy": 160000.0,
+  "showInJEI": true,
+  "result": {
+    "item": "quarryplus:miningwellplus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "value": "MiningwellPlus",
+      "type": "quarryplus:machine_enabled"
+    }
+  ]
+}

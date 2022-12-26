@@ -1,0 +1,84 @@
+{
+  "flower": "tag:forge:storage_blocks/allthemodium",
+  "maxTimeInHive": 4800,
+  "lore": "Obtained by block mutation of dragonic bee.",
+  "loreColor": "#626262",
+  "traits": [
+    "allthemodium",
+    "nether"
+  ],
+  "hasHoneycomb": true,
+  "baseLayerTexture": "modium/modium_bee",
+  "ColorData": {
+    "honeycombColor": "#FCC50C",
+    "isEnchanted": true,
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 1,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "allthemodium:allthemodium_ore",
+        "outputs": [
+          {
+            "outputID": "allthemodium:allthemodium_nugget",
+            "weight": 80
+          },
+          {
+            "outputID": "resourcefulbees:bee_jar",
+            "nbtData": {
+              "Entity": "resourcefulbees:allthemodium_bee",
+              "BeeType": "allthemodium",
+              "Color": "#FCC50C"
+            },
+            "weight": 20
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "allthemodium:vibranium_ore",
+        "outputs": [
+          {
+            "outputID": "allthemodium:vibranium_nugget",
+            "weight": 80
+          },
+          {
+            "outputID": "resourcefulbees:bee_jar",
+            "nbtData": {
+              "Entity": "resourcefulbees:vibranium_bee",
+              "BeeType": "vibranium",
+              "Color": "#26DE88"
+            },
+            "weight": 20
+          }
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 9,
+    "mainOutput": "allthemodium:allthemodium_ingot",
+    "mainOutputWeight": 0.40,
+    "mainOutputCount": 1,
+    "secondaryOutput": "resourcefulbees:wax",
+    "secondaryOutputWeight": 0.20,
+    "secondaryOutputCount": 1,
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1,
+    "recipeTime": 200
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": false
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

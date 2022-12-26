@@ -1,0 +1,30 @@
+{
+    "key": "enderium",
+    "category": "metal",
+    "primary": "10.7",
+    "secondary": "9.8",
+    "tertiary": "2.8",
+    "durability": "4464",
+    "integrityCost": "2",
+    "integrityGain": "8",
+    "magicCapacity": "128",
+    "toolLevel": "4",
+    "toolEfficiency": "12.0",
+    "tints": {
+        "glyph": "168c6d",
+        "texture": "38c9a3"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "tag": "forge:ingots/enderium"
+    },
+    "improvements": {
+        "workable": 3
+    },
+    "requiredTools": {
+        "hammer": 4
+    }
+}

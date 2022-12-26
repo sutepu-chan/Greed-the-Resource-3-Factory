@@ -1,0 +1,31 @@
+{
+    "conditions": [{
+        "type": "forge:mod_loaded",
+        "modid": "allthemodium"
+    }],
+    "key": "allthemodium",
+    "category": "metal",
+    "primary": "12.5",
+    "secondary": "2.7",
+    "tertiary": "4.2",
+    "durability": "4023",
+    "integrityCost": "1",
+    "integrityGain": "6",
+    "magicCapacity": "120",
+    "toolLevel": "6",
+    "toolEfficiency": "10",
+    "tints": {
+        "glyph": "fc8904",
+        "texture": "fc8904"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "allthemodium:allthemodium_ingot"
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

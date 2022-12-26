@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "SPS",
+      "SRS"
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:stone"
+      },
+      "P": {
+        "tag": "forge:dyes/purple"
+      },
+      "R": {
+        "tag": "forge:storage_blocks/redstone"
+      }
+    },
+    "result": {
+      "item": "clickmachine:auto_clicker"
+    }
+  }

@@ -1,0 +1,30 @@
+{
+    "key": "invar",
+    "category": "metal",
+    "primary": "6.2",
+    "secondary": "7.4",
+    "tertiary": "2.7",
+    "durability": "2242",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "76",
+    "toolLevel": "3",
+    "toolEfficiency": "7.4",
+    "tints": {
+        "glyph": "7fa5d4",
+        "texture": "55769e"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "tag": "forge:ingots/invar"
+    },
+    "improvements": {
+        "workable": 1
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

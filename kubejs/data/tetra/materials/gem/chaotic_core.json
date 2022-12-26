@@ -1,0 +1,27 @@
+{
+    "key": "chaotic_core",
+    "category": "gem",
+    "primary": "182",
+    "secondary": "4.2",
+    "tertiary": "15.4",
+    "durability": "185329",
+    "integrityCost": "1",
+    "integrityGain": "12",
+    "magicCapacity": "180",
+    "toolLevel": "10",
+    "toolEfficiency": "42.4",
+    "tints": {
+        "glyph": "5c5651",
+        "texture": "5c5651"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "draconicevolution:chaotic_core"
+    },
+    "requiredTools": {
+        "hammer": 7
+    }
+}

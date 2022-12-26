@@ -1,0 +1,27 @@
+{
+    "key": "ultimate",
+    "category": "misc",
+    "primary": "3000",
+    "secondary": "0.1",
+    "tertiary": "100",
+    "durability": "294683",
+    "integrityCost": "4",
+    "integrityGain": "20",
+    "magicCapacity": "500",
+    "toolLevel": "20",
+    "toolEfficiency": "400",
+    "tints": {
+        "glyph": "3d62f5",
+        "texture": "f5463d"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "extendedcrafting:ultimate_singularity"
+    },
+    "requiredTools": {
+        "hammer": 7
+    }
+}
